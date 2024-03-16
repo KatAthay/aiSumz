@@ -9,11 +9,12 @@ const Hero = () => {
         <img src={logo} alt='sumz_logo' className='w-28 object-contain' />
 
         <button
+          style={{ height: '40px', width: '120px' }} 
           type='button'
           onClick={() =>
             window.open("https://github.com/KatAthay", "_blank")
           }
-          className='black_btn'
+          className='font-semibold black_btn flex items-center gap-2 '
         >
                     <img src={githubIcon} alt="GitHub" className='w-8 h-8 -ml-2' />
 
