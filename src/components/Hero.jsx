@@ -1,5 +1,5 @@
 import React from "react";
-
+import githubIcon from '../assets/github.svg';
 import { logo } from "../assets";
 
 const Hero = () => {
@@ -11,10 +11,12 @@ const Hero = () => {
         <button
           type='button'
           onClick={() =>
-            window.open("https://github.com/TidbitsJS/Summize", "_blank")
+            window.open("https://github.com/KatAthay", "_blank")
           }
           className='black_btn'
         >
+                    <img src={githubIcon} alt="GitHub" className='w-8 h-8 -ml-2' />
+
           GitHub
         </button>
       </nav>
